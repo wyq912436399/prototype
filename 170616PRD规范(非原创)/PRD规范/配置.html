@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>配置</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/配置/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+    <style type="text/css">
+@font-face {
+font-family:IOS8-Icons;
+src:URL('http://7xk31e.com1.z0.glb.clouddn.com/IOS8-Icons-Regular.ttf') format('truetype');
+}
+    </style>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/配置/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (文本段落) -->
+      <div id="u4295" class="ax_default _文本段落">
+        <img id="u4295_img" class="img " src="images/打断/u3714.png"/>
+        <!-- Unnamed () -->
+        <div id="u4296" class="text" style="visibility: visible;">
+          <p><span>配置</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本段落) -->
+      <div id="u4297" class="ax_default _文本段落">
+        <img id="u4297_img" class="img " src="images/授权/u3968.png"/>
+        <!-- Unnamed () -->
+        <div id="u4298" class="text" style="visibility: visible;">
+          <p><span>配置文件是什么？</span></p><p><span>是指存放应用程序的全局配置信息的特殊文件，通常APP的配置文件叫做app.config。</span></p><p><span>比如记录上一次窗口状态，用户设置的一些选项等，当然也可以是连接字符串。</span></p><p><span><br></span></p><p><span>配置文件有什么用？</span></p><p><span>一般来说会使用配置文件来设定参数，增加软件灵活性。主要是根据客户环境不同而可以改变参数来达到目的。</span></p><p><span>如果不使用配置文件，那就是硬编码，程序发布后没有办法改变，只能重新编译并发布。</span></p><p><span>所以不做改动的信息信息写到程序里，要经常变动的信息就用配置文件。</span></p><p><span><br></span></p><p><span>配置文件和硬编码的区别</span></p><p><span>自定义配置文件可以使用自己独有的文件格式(比如二进制格式)，其它人很难解析。也可以采用特殊的加密算法，安全性好。</span></p><p><span>硬编码影响软件的扩展性。因为硬编码是固化的，即如果想修改这些参数必须重新编译并发布你的代码，而使用配置文件可以不必重新生成代码。</span></p><p><span>硬编码也不是你想象的那么安全，.NET程序如果不进行特殊处理(比如混淆)，很容易被反编译并破解。</span></p><p><span><br></span></p><p><span>配置文件概述</span></p><p><span>应用程序配置文件是标准的 XML 文件，XML 标记和属性是区分大小写的。它是可以按需要更改的，开发人员可以使用配置文件来更改设置，而不必重编译应用程序。配置文件的根节点是configuration。我们经常访问的是appSettings，它是由.Net预定义的配置节。我们经常使用的配置文件的架构是客诉下面的形式。先大概有个印象，通过后面的实例会有一个比较清楚的认识。下面的&quot;配置节&quot;可以理解为进行配置一个XML的节点。</span></p><p><span>常见配置文件模式：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u4299" class="ax_default box_1">
+        <img id="u4299_img" class="img " src="images/配置/u4299.png"/>
+        <!-- Unnamed () -->
+        <div id="u4300" class="text" style="visibility: visible;">
+          <p><span>&lt;configuration&gt;</span></p><p><span>&lt;configSections&gt;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; //配置节声明区域，包含配置节和命名空间声明</span></p><p><span>&lt;section&gt;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; //配置节声明</span></p><p><span>&lt;sectionGroup&gt;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; //定义配置节组</span></p><p><span>&lt;section&gt;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; //配置节组中的配置节声明</span></p><p><span>&lt;appSettings&gt;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; //预定义配置节</span></p><p><span>&lt;Custom element for configuration section&gt;&nbsp;&nbsp; //配置节设置区域</span></p><p><span>下面是一个最常见的应用程序配置文件的例子，只有appSettings节：</span></p><p><span>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</span></p><p><span>&lt;configuration&gt;</span></p><p><span>&lt;appSettings&gt;</span></p><p><span>&lt;add key=&quot;connectionstring&quot; value=&quot;User Source=.;Password=;Initial</span></p><p><span>Catalog=test;Provider=SQLOLEDB.1;&quot; /&gt;</span></p><p><span>&lt;add key=&quot;TemplatePATH&quot; value=&quot;Template&quot; /&gt;</span></p><p><span>&lt;/appSettings&gt;</span></p><p><span>&lt;/configuration&gt;</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本段落) -->
+      <div id="u4301" class="ax_default _文本段落">
+        <img id="u4301_img" class="img " src="images/sdk/u4183.png"/>
+        <!-- Unnamed () -->
+        <div id="u4302" class="text" style="visibility: visible;">
+          <p><span>#更多资料#</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (文本段落) -->
+      <div id="u4303" class="ax_default _文本段落">
+        <img id="u4303_img" class="img " src="images/配置/u4303.png"/>
+        <!-- Unnamed () -->
+        <div id="u4304" class="text" style="visibility: visible;">
+          <p><span>有赞 App 动态化配置中心实践</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
