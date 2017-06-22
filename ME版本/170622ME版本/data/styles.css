@@ -1,0 +1,347 @@
+﻿.ax_default {
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.box_2 {
+}
+.button {
+}
+._一级标题 {
+  font-family:'微软雅黑';
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+._二级标题 {
+  font-family:'微软雅黑';
+  font-weight:bold;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+._三级标题 {
+  font-family:'微软雅黑';
+  font-weight:bold;
+  font-style:normal;
+  font-size:18px;
+  text-align:left;
+}
+._四级标题 {
+  font-family:'微软雅黑';
+  font-weight:bold;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+}
+._五级标题 {
+  font-family:'微软雅黑';
+  font-weight:bold;
+  font-style:normal;
+  text-align:left;
+}
+._六级标题 {
+  font-family:'微软雅黑';
+  font-weight:bold;
+  font-style:normal;
+  font-size:10px;
+  text-align:left;
+}
+.label {
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+}
+._文本段落 {
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  text-align:left;
+}
+._流程形状 {
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+}
+._文本段落1 {
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  text-align:left;
+}
+._二级标题1 {
+  font-family:'微软雅黑 Bold', '微软雅黑';
+  font-weight:700;
+  font-style:normal;
+  font-size:24px;
+  text-align:left;
+}
+._形状 {
+}
+._图片 {
+  color:#000000;
+}
+._垂直线 {
+}
+._水平线 {
+}
+.paragraph {
+  text-align:left;
+}
+.heading_1 {
+  font-family:'微软雅黑';
+  font-weight:bold;
+  font-style:normal;
+  font-size:32px;
+  text-align:left;
+}
+.image {
+  color:#000000;
+}
+.box_1 {
+}
+.shape {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:normal;
+  font-style:normal;
+  font-size:13px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+.icon {
+}
+.box_3 {
+}
+.ellipse {
+}
+.line {
+}
+.label1 {
+  font-size:14px;
+  text-align:left;
+}
+._表格 {
+}
+._单元格 {
+}
+._btn-default {
+  font-family:'Helvetica Neue Regular', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#333333;
+  text-align:center;
+  line-height:20px;
+}
+._btn-default_hover {
+  color:#333333;
+  text-align:center;
+  line-height:20px;
+}
+._btn-primary {
+  font-family:'Helvetica Neue Regular', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:20px;
+}
+._btn-primary_hover {
+  color:#FFFFFF;
+  text-align:center;
+  line-height:20px;
+}
+._btn-warning {
+  font-family:'Helvetica Neue Regular', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:20px;
+}
+._btn-warning_hover {
+  color:#FFFFFF;
+  text-align:center;
+  line-height:20px;
+}
+._btn-danger {
+  font-family:'Helvetica Neue Regular', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#FFFFFF;
+  text-align:center;
+  line-height:20px;
+}
+._btn-danger_hover {
+  color:#FFFFFF;
+  text-align:center;
+  line-height:20px;
+}
+.label2 {
+  font-family:'Helvetica Neue Bold', 'Helvetica Neue';
+  font-weight:700;
+  font-style:normal;
+  font-size:14px;
+  line-height:20px;
+}
+.form_text_field {
+  font-family:'Helvetica Neue Regular', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  line-height:20px;
+}
+.dropdown-menu {
+  font-family:'Helvetica Neue Regular', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  line-height:26px;
+}
+._nav-pills_focused_pill {
+  color:#FFFFFF;
+}
+._nav-pills_background_pills {
+  font-family:'Helvetica Neue Regular', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#428BCA;
+  text-align:left;
+  line-height:20px;
+}
+._nav-pills_pill_hover {
+  color:#2A6496;
+}
+._alert-info {
+  font-family:'Helvetica Neue Regular', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#31708F;
+  line-height:20px;
+}
+._progressbar_base {
+  line-height:20px;
+}
+._progressbar_danger {
+  line-height:20px;
+}
+._btn-grp_divider {
+}
+._dropdown_menuitem {
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+}
+._dropdown_menuitem_hover {
+  color:#252525;
+}
+._dropdown-menu__dropdown-header {
+  font-family:'Helvetica Neue Regular', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:12px;
+  color:#999999;
+  line-height:17px;
+}
+._一级标题1 {
+  font-family:'Helvetica Neue Bold', 'Helvetica Neue';
+  font-weight:700;
+  font-style:normal;
+  font-size:36px;
+  text-align:left;
+}
+._复选框 {
+  font-family:'Helvetica Neue Regular', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  text-align:left;
+}
+._形状1 {
+  font-family:'Helvetica Neue Regular', 'Helvetica Neue';
+  font-weight:400;
+  font-style:normal;
+}
+.button_normal_seconday {
+  font-family:'微软雅黑';
+  font-weight:bold;
+  font-style:normal;
+  color:#FFFFFF;
+}
+.button_pressed {
+  color:#76A9E0;
+}
+.box_11 {
+}
+._图片1 {
+  color:#000000;
+}
+.line1 {
+}
+.icon1 {
+}
+.image1 {
+}
+.box_31 {
+}
+._连接线 {
+  font-family:'微软雅黑';
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+  color:#333333;
+  text-align:center;
+  line-height:normal;
+}
+._图片2 {
+}
+.table_cell {
+}
+._文本段落2 {
+  text-align:left;
+}
+.text_field {
+  color:#000000;
+  text-align:left;
+}
+.text_area {
+  color:#000000;
+  text-align:left;
+}
+.checkbox {
+  text-align:left;
+}
+.radio_button {
+  text-align:left;
+}
+.button_normal_primary {
+  font-family:'微软雅黑';
+  font-weight:bold;
+  font-style:normal;
+  color:#76A9E0;
+}
+.flow_shape {
+}
+.placeholder {
+}
+.primary_button {
+  color:#FFFFFF;
+}
+._图片3 {
+  color:#000000;
+}
+._默认样式 {
+}
